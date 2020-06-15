@@ -39,7 +39,7 @@ class Conductivity(Sensors):
                 while(1):
                     self.screen.drawImage("back_btn.png", self.screen.backBtn, 35, 35)            
                     pg.gfxdraw.rectangle(self.canvas, self.screen.btmRight, color)
-                    self.screen.drawTitle("Calibrate pH", 20, color) 
+                    self.screen.drawTitle("Calibrate EC", 20, color) 
                     self.screen.drawText("Calibrate", 18, color, self.screen.btmRight, 0, 0)
                     pg.event.clear()
                     pg.display.update()     
